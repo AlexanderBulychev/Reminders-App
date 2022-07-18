@@ -14,6 +14,7 @@
 		FC54B32D288183A200BAD9A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC54B32C288183A200BAD9A8 /* Assets.xcassets */; };
 		FC54B330288183A200BAD9A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC54B32E288183A200BAD9A8 /* LaunchScreen.storyboard */; };
 		FC54B3392881865200BAD9A8 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54B3382881865200BAD9A8 /* Reminder.swift */; };
+		FC54B33E288547D300BAD9A8 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54B33D288547D300BAD9A8 /* Date+Today.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FC54B32F288183A200BAD9A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC54B331288183A200BAD9A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC54B3382881865200BAD9A8 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		FC54B33D288547D300BAD9A8 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				FC54B3382881865200BAD9A8 /* Reminder.swift */,
+				FC54B33D288547D300BAD9A8 /* Date+Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC54B3282881839F00BAD9A8 /* ReminderListViewController.swift in Sources */,
+				FC54B33E288547D300BAD9A8 /* Date+Today.swift in Sources */,
 				FC54B3242881839F00BAD9A8 /* AppDelegate.swift in Sources */,
 				FC54B3262881839F00BAD9A8 /* SceneDelegate.swift in Sources */,
 				FC54B3392881865200BAD9A8 /* Reminder.swift in Sources */,
