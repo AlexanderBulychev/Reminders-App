@@ -19,6 +19,7 @@
 		FC8F3AB02886802E00243494 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F3AAF2886802E00243494 /* UIColor+Today.swift */; };
 		FC8F3AB228869EEC00243494 /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F3AB128869EEC00243494 /* ReminderDoneButton.swift */; };
 		FC8F3AB42886A0C600243494 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F3AB32886A0C600243494 /* ReminderListViewController+Actions.swift */; };
+		FC8F3AB72887E10F00243494 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F3AB62887E10F00243494 /* ReminderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FC8F3AAF2886802E00243494 /* UIColor+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
 		FC8F3AB128869EEC00243494 /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		FC8F3AB32886A0C600243494 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
+		FC8F3AB62887E10F00243494 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				FC54B3232881839F00BAD9A8 /* AppDelegate.swift */,
 				FC54B3252881839F00BAD9A8 /* SceneDelegate.swift */,
 				FC54B33F28854F1A00BAD9A8 /* ListViewController */,
+				FC8F3AB52887E0DE00243494 /* ReminderViewController */,
 				FC54B3292881839F00BAD9A8 /* Main.storyboard */,
 				FC54B32C288183A200BAD9A8 /* Assets.xcassets */,
 				FC54B32E288183A200BAD9A8 /* LaunchScreen.storyboard */,
@@ -99,6 +102,14 @@
 				FC8F3AB32886A0C600243494 /* ReminderListViewController+Actions.swift */,
 			);
 			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		FC8F3AB52887E0DE00243494 /* ReminderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC8F3AB62887E10F00243494 /* ReminderViewController.swift */,
+			);
+			path = ReminderViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 			files = (
 				FC8F3AB02886802E00243494 /* UIColor+Today.swift in Sources */,
 				FC8F3AB42886A0C600243494 /* ReminderListViewController+Actions.swift in Sources */,
+				FC8F3AB72887E10F00243494 /* ReminderViewController.swift in Sources */,
 				FC54B3282881839F00BAD9A8 /* ReminderListViewController.swift in Sources */,
 				FC54B33E288547D300BAD9A8 /* Date+Today.swift in Sources */,
 				FC8F3AB228869EEC00243494 /* ReminderDoneButton.swift in Sources */,
